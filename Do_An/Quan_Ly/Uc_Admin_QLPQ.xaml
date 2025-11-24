@@ -1,0 +1,154 @@
+﻿<UserControl x:Class="Do_An.Admin_QLPQ"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             Background="#f5f7fa">
+
+    <!-- TẤT CẢ Resources gom chung ở đây -->
+    <UserControl.Resources>
+        <!-- Style header DataGrid -->
+        <Style x:Key="MyDataGridHeaderStyle" TargetType="DataGridColumnHeader">
+            <Setter Property="Background" Value="#3498db"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="Height" Value="38"/>
+            <Setter Property="BorderThickness" Value="0"/>
+        </Style>
+
+        <!-- Style text căn giữa dùng cho các cột -->
+        <Style x:Key="CenteredTextStyle" TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        </Style>
+
+        <!-- Style hàng hover nhẹ -->
+        <Style x:Key="MyDataGridRowStyle" TargetType="DataGridRow">
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect BlurRadius="3" ShadowDepth="0" Opacity="0.03"/>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#eaf6ff"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Tiêu đề -->
+        <TextBlock Text="QUẢN LÝ PHÂN QUYỀN" 
+                   FontSize="28" FontWeight="Bold" 
+                   Foreground="#2c3e50" 
+                   Margin="0 0 0 15"/>
+
+        <!-- Thanh tìm kiếm + nút lưu -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0 0 0 15">
+            <TextBox x:Name="txtSearch" Width="280" Height="38"
+                     VerticalContentAlignment="Center"
+                     Padding="10"
+                     Background="White"
+                     BorderBrush="#d1d5db"
+                     BorderThickness="1"
+                     FontSize="14"
+                     ToolTip="Nhập tài khoản cần tìm..."
+                     TextChanged="txtSearch_TextChanged"/>
+
+            <Button x:Name="btnLuu" Content="💾 Lưu thay đổi"
+                    Width="150" Height="38" Margin="10 0 0 0"
+                    Background="#4CAF50" Foreground="White"
+                    BorderBrush="#4CAF50" FontWeight="Bold"
+                    Cursor="Hand"
+                    Click="btnLuu_Click">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="{TemplateBinding Background}" 
+                                            BorderBrush="{TemplateBinding BorderBrush}" 
+                                            BorderThickness="1"
+                                            CornerRadius="10">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Property="Effect">
+                            <Setter.Value>
+                                <DropShadowEffect BlurRadius="5" Opacity="0.12"/>
+                            </Setter.Value>
+                        </Setter>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#45a049"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+        </StackPanel>
+
+        <!-- Bảng dữ liệu -->
+        <Border Grid.Row="2" Background="White" CornerRadius="10" Padding="10"
+                BorderBrush="#e5e7eb" BorderThickness="1">
+            <DataGrid x:Name="dgPhanQuyen"
+                      AutoGenerateColumns="False"
+                      CanUserAddRows="False"
+                      HeadersVisibility="Column"
+                      AlternatingRowBackground="#f9fafb"
+                      GridLinesVisibility="None"
+                      FontSize="14"
+                      RowHeight="35"
+                      BorderThickness="0"
+                      HorizontalAlignment="Stretch"
+                      VerticalAlignment="Stretch"
+                      ColumnHeaderStyle="{StaticResource MyDataGridHeaderStyle}"
+                      RowStyle="{StaticResource MyDataGridRowStyle}">
+
+                <!-- Cột -->
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Tài khoản" 
+                                        Binding="{Binding TenDN}" 
+                                        Width="1.5*" 
+                                        IsReadOnly="True"
+                                        ElementStyle="{StaticResource CenteredTextStyle}"/>
+
+                    <DataGridTextColumn Header="Tên người dùng"
+                                        Binding="{Binding TenNguoiDung}"
+                                        Width="2*" 
+                                        IsReadOnly="True"
+                                        ElementStyle="{StaticResource CenteredTextStyle}"/>
+
+                    <DataGridComboBoxColumn Header="Quyền"
+                                            SelectedValueBinding="{Binding LoaiNguoiDung, Mode=TwoWay}"
+                                            SelectedValuePath="."
+                                            DisplayMemberPath="."
+                                            Width="1.5*">
+                        <DataGridComboBoxColumn.ItemsSource>
+                            <x:Array Type="{x:Type sys:String}">
+                                <sys:String>Quản lý</sys:String>
+                                <sys:String>Nhân viên</sys:String>
+                                <sys:String>Giáo viên</sys:String>
+                                <sys:String>Học viên</sys:String>
+                            </x:Array>
+                        </DataGridComboBoxColumn.ItemsSource>
+                    </DataGridComboBoxColumn>
+                </DataGrid.Columns>
+
+            </DataGrid>
+        </Border>
+    </Grid>
+</UserControl>

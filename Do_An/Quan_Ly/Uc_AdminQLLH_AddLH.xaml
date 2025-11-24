@@ -1,0 +1,131 @@
+﻿<Window x:Class="Do_An.AdminQLLH_AddLH"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Quản lý Lớp học - Thêm/Sửa" 
+        Height="550" Width="450"
+        WindowStartupLocation="CenterOwner"
+        Background="#F5F7FA"
+        WindowStyle="ToolWindow"
+        ResizeMode="NoResize">
+
+    <Window.Resources>
+        <!-- Style Label (Nhãn) -->
+        <Style TargetType="TextBlock" x:Key="LabelStyle">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Foreground" Value="#333"/>
+            <Setter Property="Margin" Value="0,0,0,5"/>
+        </Style>
+
+        <!-- Style TextBox/ComboBox Chung -->
+        <Style TargetType="Control" x:Key="InputControl">
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Padding" Value="8,5"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#D1D5DB"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="FontSize" Value="14"/>
+        </Style>
+        <Style TargetType="TextBox" BasedOn="{StaticResource InputControl}"/>
+        <Style TargetType="ComboBox" BasedOn="{StaticResource InputControl}"/>
+
+        <!-- Style Nút bấm (Đồng bộ) -->
+        <Style x:Key="ActionButton" TargetType="Button">
+            <Setter Property="Background" Value="#0098B0"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Padding" Value="10,6"/>
+            <Setter Property="Margin" Value="5,0,5,0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Height" Value="38"/>
+            <Setter Property="MinWidth" Value="100"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="Bd" Background="{TemplateBinding Background}" CornerRadius="8">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Bd" Property="Background" Value="#008BA0"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="CancelButton" TargetType="Button" BasedOn="{StaticResource ActionButton}">
+            <Setter Property="Background" Value="#6B7280"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="Bd" Background="{TemplateBinding Background}" CornerRadius="8">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Bd" Property="Background" Value="#5A626C"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+    </Window.Resources>
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="THÔNG TIN LỚP HỌC" 
+                   FontSize="20" FontWeight="Bold" 
+                   Foreground="#1E3A8A" 
+                   HorizontalAlignment="Center" 
+                   Margin="0,0,0,15"/>
+
+        <!-- Form nhập liệu -->
+        <StackPanel Grid.Row="1" Orientation="Vertical">
+            
+            <TextBlock Text="Tên lớp:" Style="{StaticResource LabelStyle}"/>
+            <TextBox x:Name="txtTenLop"/>
+
+            <TextBlock Text="Trình độ áp dụng:" Style="{StaticResource LabelStyle}" Margin="0,10,0,5"/>
+            <ComboBox x:Name="cbTrinhDo">
+                <ComboBoxItem Content="Beginner"/>
+                <ComboBoxItem Content="Intermediate"/>
+                <ComboBoxItem Content="Advanced"/>
+                <ComboBoxItem Content="N5"/>
+                <ComboBoxItem Content="N4"/>
+                <ComboBoxItem Content="N3"/>
+                <ComboBoxItem Content="IELTS 5.0"/>
+                <ComboBoxItem Content="IELTS 6.0"/>
+                <ComboBoxItem Content="IELTS 7.0+"/>
+            </ComboBox>
+            
+            <TextBlock Text="Môn học:" Style="{StaticResource LabelStyle}" Margin="0,10,0,5"/>
+            <ComboBox x:Name="cbMonHoc" DisplayMemberPath="TenMH" SelectedValuePath="MaMH"/>
+
+            <TextBlock Text="Giáo viên:" Style="{StaticResource LabelStyle}" Margin="0,10,0,5"/>
+            <ComboBox x:Name="cbGiaoVien" DisplayMemberPath="HoTen" SelectedValuePath="MaGV"/>
+            
+            <TextBlock Text="Sĩ số tối đa:" Style="{StaticResource LabelStyle}" Margin="0,10,0,5"/>
+            <TextBox x:Name="txtSiSoToiDa" Text=""/>
+
+            <!-- Các trường khác nếu cần (Phong, ThoiGian, TrangThai) -->
+            <!-- Nếu không có, Code-Behind sẽ dùng giá trị mặc định -->
+            
+        </StackPanel>
+
+        <!-- Nút bấm (Giữ nguyên tên x:Name từ XAML gốc của bạn) -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+            <Button x:Name="btnLuu" Content="💾 Lưu" Style="{StaticResource ActionButton}" Click="btnLuu_Click"/>
+            <Button x:Name="btnHuy" Content="❌ Hủy" Style="{StaticResource CancelButton}" Click="btnHuy_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

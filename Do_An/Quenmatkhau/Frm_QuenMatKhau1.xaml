@@ -1,0 +1,115 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Do_An" x:Class="Do_An.QuenMatKhau1"
+        Title="Quên mật khẩu"
+        Height="520" Width="760"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanResize"
+        Background="#F5F7FA">
+
+    <Viewbox Stretch="Uniform" StretchDirection="Both">
+        <Grid>
+            <!-- Card chính -->
+            <Border Margin="20"
+                    Background="White"
+                    CornerRadius="14"
+                    Padding="24"
+                    BorderBrush="#E6E6E6"
+                    BorderThickness="1"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Stretch">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Nút quay lại -->
+                    <Button x:Name="btnBack"
+                            Grid.Row="0"
+                            HorizontalAlignment="Left"
+                            VerticalAlignment="Top"
+                            Width="100" Height="32"
+                            Click="btnBack_Click"
+                            Cursor="Hand"
+                            BorderThickness="0"
+                            Background="Transparent">
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                            <Path Data="M10,0 L0,10 L10,20" 
+                                  Stroke="Black" StrokeThickness="2" 
+                                  VerticalAlignment="Center" Margin="0,0,6,0"/>
+                            <TextBlock Text="Quay lại" FontSize="14" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+
+                    <!-- Tiêu đề -->
+                    <StackPanel Grid.Row="0" HorizontalAlignment="Center" Margin="0,40,0,0">
+                        <TextBlock Text="Quên mật khẩu?" FontSize="28" FontWeight="Bold" Margin="0,6,0,4" />
+                        <TextBlock Text="Nhập tên đăng nhập của bạn và chọn loại tài khoản"
+                                   FontSize="14" Foreground="#666" TextAlignment="Center" TextWrapping="Wrap" Width="560"/>
+                    </StackPanel>
+
+                    <!-- Ô nhập username -->
+                    <StackPanel Grid.Row="1" Margin="0,18,0,0" HorizontalAlignment="Center">
+                        <TextBlock Text="Tên đăng nhập" FontSize="14" Foreground="#333" Margin="4"/>
+                        <TextBox x:Name="txtUsername"
+                                 Width="560" Height="42"
+                                 FontSize="14" Padding="10"
+                                 VerticalContentAlignment="Center"
+                                 Background="White"
+                                 BorderThickness="0">
+                            <TextBox.Template>
+                                <ControlTemplate TargetType="{x:Type TextBox}">
+                                    <Border CornerRadius="12"
+                                            BorderBrush="#00C896"
+                                            BorderThickness="2"
+                                            Background="{TemplateBinding Background}">
+                                        <ScrollViewer Margin="0" x:Name="PART_ContentHost"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </TextBox.Template>
+                        </TextBox>
+                    </StackPanel>
+
+                    <!-- Chọn loại tài khoản -->
+                    <StackPanel Grid.Row="2" Orientation="Vertical" HorizontalAlignment="Center" Margin="0,18,0,0">
+                        <TextBlock Text="Chọn loại tài khoản" Foreground="#009688" FontSize="13" Margin="4" HorizontalAlignment="Center"/>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,6,0,0">
+                            <RadioButton x:Name="rdQuanLy" Content="Quản lý" Margin="12,0"/>
+                            <RadioButton x:Name="rdHocSinh" Content="Học viên" Margin="12,0"/>
+                            <RadioButton x:Name="rdGiaoVien" Content="Giáo viên" Margin="12,0"/>
+                            <RadioButton x:Name="rdNhanVien" Content="Nhân viên" Margin="12,0"/>
+                        </StackPanel>
+                    </StackPanel>
+
+                    <!-- Nút tiếp tục -->
+                    <StackPanel Grid.Row="3" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,20,0,0">
+                        <Button x:Name="btnLogin"
+                                Width="360" Height="48"
+                                FontSize="16" FontWeight="SemiBold"
+                                Content="Tiếp tục"
+                                Click="btnLogin_Click"
+                                BorderThickness="0">
+                            <Button.Background>
+                                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                    <GradientStop Color="#00C896" Offset="0"/>
+                                    <GradientStop Color="#00E0FF" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Button.Background>
+                            <Button.Template>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border Background="{TemplateBinding Background}" CornerRadius="24">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Button.Template>
+                        </Button>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </Grid>
+    </Viewbox>
+</Window>

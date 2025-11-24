@@ -1,0 +1,76 @@
+﻿<Window x:Class="Do_An.QuenMatKhau2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Quên mật khẩu - Bước 2"
+        Height="400" Width="520"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Background="#F5F7FA">
+
+    <Grid>
+        <Border Width="460" Height="320" CornerRadius="20" Background="White"
+                HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Border.Effect>
+                <DropShadowEffect Color="#000000" BlurRadius="15" ShadowDepth="4" Opacity="0.15"/>
+            </Border.Effect>
+
+            <StackPanel Margin="28" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <!-- Tiêu đề -->
+                <TextBlock Text="📧 Nhập Email để nhận mã xác minh" 
+                           FontSize="20" FontWeight="Bold" Foreground="#2C3E50" 
+                           HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+                <!-- Ô nhập Email -->
+                <TextBlock Text="Email" FontSize="14" Foreground="#333" Margin="4"/>
+                <TextBox x:Name="txtEmail"
+                         Width="360" Height="42"
+                         FontSize="14" Padding="10"
+                         VerticalContentAlignment="Center"
+                         Background="White"
+                         BorderThickness="0" >
+                    <TextBox.Template>
+                        <ControlTemplate TargetType="TextBox">
+                            <Border CornerRadius="12"
+                                    BorderBrush="#00C896"
+                                    BorderThickness="2"
+                                    Background="{TemplateBinding Background}">
+                                <ScrollViewer Margin="0" x:Name="PART_ContentHost"/>
+                            </Border>
+                        </ControlTemplate>
+                    </TextBox.Template>
+                </TextBox>
+
+                <!-- Thông báo OTP (hiển thị test) -->
+                <TextBlock x:Name="lblOtpInfo" FontSize="13" Foreground="Red"
+                           HorizontalAlignment="Center" Margin="0,10,0,0"/>
+
+                <!-- Nút gửi mã -->
+                <Button x:Name="btnSendCode"
+                        Width="200" Height="42" Margin="0,20,0,0"
+                        FontSize="15" FontWeight="SemiBold"
+                        Content="Gửi mã xác minh"
+                        Click="btnSendCode_Click"
+                        BorderThickness="0" Cursor="Hand">
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#00C896" Offset="0"/>
+                            <GradientStop Color="#00E0FF" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Background="{TemplateBinding Background}" CornerRadius="20">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+                <!-- Quay lại -->
+                <TextBlock Text="← Quay lại" Foreground="#2980B9" FontSize="14" 
+                           HorizontalAlignment="Center" Cursor="Hand" Margin="0,18,0,0"
+                           MouseLeftButtonUp="Back_MouseLeftButtonUp"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

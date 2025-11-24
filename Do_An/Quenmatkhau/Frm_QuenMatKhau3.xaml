@@ -1,0 +1,106 @@
+﻿<Window x:Class="Do_An.QuenMatKhau3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Xác minh mã"
+        WindowStartupLocation="CenterScreen"
+        Background="#F5F7FA"
+        Height="520" Width="520"
+        ResizeMode="NoResize">
+
+    <Window.Resources>
+        <!-- Style nút pill -->
+        <Style x:Key="PillButton" TargetType="Button">
+            <Setter Property="Padding" Value="10,6"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="25" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Style ô nhập -->
+        <Style x:Key="OtpBoxStyle" TargetType="TextBox">
+            <Setter Property="Width" Value="48"/>
+            <Setter Property="Height" Value="48"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="BorderBrush" Value="#E0E6EB"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+            <Setter Property="MaxLength" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border CornerRadius="8" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}">
+                            <ScrollViewer x:Name="PART_ContentHost" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Border Width="460" Height="460" CornerRadius="25" Background="White"
+                HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Border.Effect>
+                <DropShadowEffect Color="#000000" BlurRadius="18" ShadowDepth="4" Opacity="0.12"/>
+            </Border.Effect>
+
+            <StackPanel Margin="28" HorizontalAlignment="Center">
+                <!-- Tiêu đề -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,12">
+                    <TextBlock Text="🔑" FontSize="22" Margin="0,0,8,0"/>
+                    <TextBlock Text="Quên mật khẩu" FontSize="24" FontWeight="Bold" Foreground="#2C3E50"/>
+                </StackPanel>
+
+                <!-- Hướng dẫn -->
+                <TextBlock Text="1. Hệ thống đã gửi mã xác minh 6 chữ số đến email của bạn, vui lòng kiểm tra hộp thư."
+                           FontSize="13" Foreground="#34495e" TextWrapping="Wrap" Margin="0,0,0,6"/>
+                <TextBlock Text="2. Nếu chưa nhận được trong vòng 60 giây, hãy nhấn 'Gửi lại mã'."
+                           FontSize="13" Foreground="#34495e" TextWrapping="Wrap" Margin="0,0,0,6"/>
+                <TextBlock Text="⚠ Mã này chỉ dùng một lần và không chia sẻ với ai để đảm bảo an toàn."
+                           FontSize="13" Foreground="Red" TextWrapping="Wrap" Margin="0,0,0,18"/>
+
+                <!-- Ô nhập OTP -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,12">
+                    <TextBox x:Name="otp1" Style="{StaticResource OtpBoxStyle}" />
+                    <TextBox x:Name="otp2" Style="{StaticResource OtpBoxStyle}" />
+                    <TextBox x:Name="otp3" Style="{StaticResource OtpBoxStyle}" />
+                    <TextBox x:Name="otp4" Style="{StaticResource OtpBoxStyle}" />
+                    <TextBox x:Name="otp5" Style="{StaticResource OtpBoxStyle}" />
+                    <TextBox x:Name="otp6" Style="{StaticResource OtpBoxStyle}" />
+                </StackPanel>
+
+                <!-- Gửi lại mã -->
+                <TextBlock x:Name="txtResend" Text="Gửi lại mã (60)" Foreground="#2980B9"
+                           FontSize="14" HorizontalAlignment="Center" Cursor="Hand" MouseLeftButtonUp="txtResend_MouseLeftButtonUp"/>
+
+                <!-- Nút xác nhận -->
+                <Button x:Name="btnConfirm" Style="{StaticResource PillButton}" Width="360" Height="48" Margin="0,18,0,14"
+                        Click="btnConfirm_Click" Cursor="Hand" FontSize="15" FontWeight="SemiBold">
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#00C896" Offset="0"/>
+                            <GradientStop Color="#00E0FF" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                    <TextBlock Text="Xác nhận" HorizontalAlignment="Center"/>
+                </Button>
+
+                <!-- Quay lại -->
+                <TextBlock Text="← Quay lại" Foreground="#2980B9" FontSize="14" HorizontalAlignment="Center" Cursor="Hand"
+                           MouseLeftButtonUp="Back_MouseLeftButtonUp"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="GiangVien\Frm_GiangVienWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GiangVien\UC_GiangVien.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GiangVien\UC_LichDay.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GiangVien\UC_NhapDiem.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GiangVien\UC_TrangChu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Quan_Ly\Uc_AdminQLLH_AddLH.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Quan_Ly\Frm_AdminQLTK_AddTK.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Quan_Ly\Uc_Admin_Menu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Quan_Ly\Uc_Admin_QLLH.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Quan_Ly\Uc_Admin_QLPQ.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Quan_Ly\Uc_Admin_QLTK.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Quan_Ly\Frm_GiaoDien_Admin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Nhan_vien\Frm_GiaoDien_NVQL.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Hoc_vien\Frm_GiaoDien_HocVien.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Nhan_vien\Uc_NVQL_BC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Nhan_vien\Uc_NVQL_DKHV.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Nhan_vien\Uc_NVQL_HP.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Nhan_vien\Uc_NVQL_MLH.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Nhan_vien\Uc_NVQL_PCGV.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Nhan_vien\Uc_NVQL_QLD.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Quenmatkhau\Frm_QuenMatKhau1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Quenmatkhau\Frm_QuenMatKhau2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Quenmatkhau\Frm_QuenMatKhau4.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Quenmatkhau\Frm_QuenMatKhau3.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

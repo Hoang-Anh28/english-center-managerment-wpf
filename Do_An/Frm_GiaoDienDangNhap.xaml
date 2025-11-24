@@ -1,0 +1,114 @@
+﻿<Window x:Class="Do_An.GiaoDienDangNhap"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Đăng nhập - StarEnglish" 
+        Height="520" Width="900"
+        WindowStartupLocation="CenterScreen"
+        Background="White"
+        ResizeMode="NoResize">
+
+    <Window.Resources>
+        <!-- (Giữ nguyên các Style Button/ListBox của bạn) -->
+
+        <!-- BỔ SUNG: Style cho nhãn (label) mới -->
+        <Style x:Key="InputLabelStyle" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#333"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Margin" Value="0,0,0,5"/>
+        </Style>
+
+        <!-- (Giữ nguyên Style Nút đăng nhập của bạn) -->
+        <Style x:Key="LoginButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#FF7A33"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="#FF7A33"/>
+            <Setter Property="Padding" Value="10,4"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Height" Value="44"/>
+            <Setter Property="FontSize" Value="17"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="10" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Opacity" Value="0.95"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Opacity" Value="0.85"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- LEFT: Logo (Giữ nguyên) -->
+        <StackPanel Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Image Source="/z7036210694201_63d938153e736b3845a0879b23f5abd4.jpg" 
+                   Width="360" Height="330" Stretch="Fill"/>
+        </StackPanel>
+
+        <!-- RIGHT: Login Form -->
+        <StackPanel Grid.Column="1" Width="360" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Cổng thông tin StarEnglish"
+                       FontSize="22" FontWeight="Bold" Foreground="#0097A7"
+                       TextAlignment="Center" Margin="0,0,0,6"/>
+            <TextBlock Text="Đăng nhập để tiếp tục" Foreground="#444" 
+                       TextAlignment="Center" Margin="0,0,0,20"/>
+
+            <!-- SỬA LỖI/THAY ĐỔI: Username (Nhãn ở trên) -->
+            <StackPanel Margin="0,0,0,12">
+                <TextBlock Text="Tên tài khoản:" Style="{StaticResource InputLabelStyle}"/>
+                <Border CornerRadius="8" Background="#FBFBFB" BorderBrush="#E0E0E0" BorderThickness="1" Padding="8">
+                    <!-- Giữ nguyên x:Name="txtUsername" -->
+                    <TextBox x:Name="txtUsername"
+                             Background="Transparent" BorderThickness="0" VerticalContentAlignment="Center"
+                             FontSize="14"/>
+                </Border>
+            </StackPanel>
+
+            <!-- SỬA LỖI/THAY ĐỔI: Password (Nhãn ở trên) -->
+            <StackPanel Margin="0,0,0,10">
+                <TextBlock Text="Mật khẩu:" Style="{StaticResource InputLabelStyle}"/>
+                <Border CornerRadius="8" Background="#FBFBFB" BorderBrush="#E0E0E0" BorderThickness="1" Padding="8">
+                    <!-- Giữ nguyên x:Name="txtPassword" -->
+                    <PasswordBox x:Name="txtPassword"
+                                 Background="Transparent" BorderThickness="0" VerticalContentAlignment="Center"
+                                 FontSize="14"/>
+                </Border>
+            </StackPanel>
+
+
+            <!-- Forgot Password (Giữ nguyên) -->
+            <TextBlock Text="Quên mật khẩu?" Foreground="#2B6AD3" FontSize="12"
+                       HorizontalAlignment="Right" Margin="0,0,0,10" Cursor="Hand"
+                       MouseLeftButtonUp="ForgotPassword_Click"/>
+
+            <!-- Role Selection (Giữ nguyên) -->
+            <TextBlock Text="Chọn loại tài khoản:" Foreground="#1E9A8A" Margin="0,6,0,6" FontSize="14"/>
+            <StackPanel>
+                <RadioButton x:Name="rbStudent" Content="Học viên" FontSize="15" Margin="0,2" IsChecked="True"/>
+                <RadioButton x:Name="rbTeacher" Content="Giáo viên" FontSize="15" Margin="0,2"/>
+                <RadioButton x:Name="rbStaff" Content="Nhân viên" FontSize="15" Margin="0,2"/>
+                <RadioButton x:Name="rbAdmin" Content="Quản lý" FontSize="15" Margin="0,2"/>
+            </StackPanel>
+
+            <!-- Login Button (Giữ nguyên) -->
+            <Button x:Name="btnLogin" Content="Đăng nhập" Margin="0,20,0,0" Click="btnLogin_Click" IsDefault="True"
+                    Style="{StaticResource LoginButtonStyle}"/>
+        </StackPanel>
+    </Grid>
+</Window>

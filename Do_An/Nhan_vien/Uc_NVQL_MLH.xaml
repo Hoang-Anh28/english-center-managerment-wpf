@@ -1,0 +1,200 @@
+﻿<UserControl x:Class="Do_An.NVQL_MLH"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             d:DesignHeight="550"
+             d:DesignWidth="500"
+             Background="#F3F4F6">
+
+    <UserControl.Resources>
+        <!-- TextBox -->
+        <Style TargetType="TextBox">
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Margin" Value="0,5,0,5"/>
+            <Setter Property="Padding" Value="8,4"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#D1D5DB"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="8"
+                                Padding="{TemplateBinding Padding}">
+                            <ScrollViewer x:Name="PART_ContentHost"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- ComboBox (removed invalid CornerRadius setter) -->
+        <Style TargetType="ComboBox">
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Margin" Value="0,5,0,5"/>
+            <Setter Property="Padding" Value="8,4"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#D1D5DB"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <!-- NOTE: if you want rounded corners for ComboBox, override its ControlTemplate.
+                 Simpler approach: wrap ComboBox in a Border in XAML where needed. -->
+        </Style>
+
+        <!-- Button -->
+        <Style x:Key="ActionButton" TargetType="Button">
+            <Setter Property="Background" Value="#EAF3FF"/>
+            <Setter Property="Foreground" Value="#1E40AF"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Padding" Value="10,6"/>
+            <Setter Property="Margin" Value="6,0,6,0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="8">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#D8EBFF"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#BBDDFD"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <Border Padding="20" Margin="20" Background="White" CornerRadius="12"
+            BorderBrush="#D1D5DB" BorderThickness="1">
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Tiêu đề -->
+            <TextBlock Text="MỞ LỚP HỌC MỚI"
+                       FontSize="22"
+                       FontWeight="Bold"
+                       Foreground="#1E3A8A"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,15"/>
+
+            <!-- Nội dung -->
+            <Grid Grid.Row="1" Margin="0,8,0,8">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="160"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <!-- Mã lớp -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- Tên lớp -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- Khóa học -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- Môn học -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- Trình độ -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- Giáo viên -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- Phòng học -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- Thời gian -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- Sĩ số -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- Trạng thái -->
+                </Grid.RowDefinitions>
+
+                <!-- Mã lớp -->
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Mã lớp:" VerticalAlignment="Center"
+                           Foreground="#374151" FontWeight="SemiBold"/>
+                <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtMaLop" IsReadOnly="True" Background="#F3F4F6"/>
+
+                <!-- Tên lớp -->
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="Tên lớp:" VerticalAlignment="Center"
+                           Foreground="#374151" FontWeight="SemiBold"/>
+                <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtTenLop"/>
+
+                <!-- Khóa học -->
+                <TextBlock Grid.Row="2" Grid.Column="0" Text="Khóa học:" VerticalAlignment="Center"
+                           Foreground="#374151" FontWeight="SemiBold"/>
+                <ComboBox Grid.Row="2" Grid.Column="1" x:Name="cbKhoaHoc"
+                          DisplayMemberPath="TenKhoaHoc"
+                          SelectedValuePath="MaKhoaHoc"
+                          SelectionChanged="cbKhoaHoc_SelectionChanged"/>
+
+                <!-- Môn học -->
+                <TextBlock Grid.Row="3" Grid.Column="0" Text="Môn học:" VerticalAlignment="Center"
+                           Foreground="#374151" FontWeight="SemiBold"/>
+                <ComboBox Grid.Row="3" Grid.Column="1" x:Name="cbMonHoc"
+                          DisplayMemberPath="TenMonHoc"
+                          SelectedValuePath="MaMH"
+                          SelectionChanged="cbMonHoc_SelectionChanged"/>
+
+                <!-- Trình độ -->
+                <TextBlock Grid.Row="4" Grid.Column="0" Text="Trình độ áp dụng:" VerticalAlignment="Center"
+                           Foreground="#374151" FontWeight="SemiBold"/>
+                <ComboBox Grid.Row="4" Grid.Column="1" x:Name="cbTrinhDoLop" SelectedIndex="0">
+                    <ComboBoxItem Content="Beginner"/>
+                    <ComboBoxItem Content="Intermediate"/>
+                    <ComboBoxItem Content="Advanced"/>
+                    <ComboBoxItem Content="N5"/>
+                    <ComboBoxItem Content="N4"/>
+                    <ComboBoxItem Content="N3"/>
+                    <ComboBoxItem Content="IELTS 5.0"/>
+                    <ComboBoxItem Content="IELTS 6.0"/>
+                    <ComboBoxItem Content="IELTS 7.0+"/>
+                </ComboBox>
+                <!-- Phòng học -->
+                <TextBlock Grid.Row="6" Grid.Column="0" Text="Phòng học:" VerticalAlignment="Center"
+                           Foreground="#374151" FontWeight="SemiBold"/>
+                <TextBox Grid.Row="6" Grid.Column="1" x:Name="txtPhong"/>
+
+                <!-- Thời gian -->
+                <TextBlock Grid.Row="7" Grid.Column="0" Text="Thời gian học:" VerticalAlignment="Center"
+                           Foreground="#374151" FontWeight="SemiBold"/>
+                <TextBox Grid.Row="7" Grid.Column="1" x:Name="txtThoiGian"
+                         Text="VD: Thứ 2-4-6 (18h-20h)" Foreground="#9CA3AF"/>
+
+                <!-- Sĩ số tối đa -->
+                <TextBlock Grid.Row="8" Grid.Column="0" Text="Sĩ số tối đa:" VerticalAlignment="Center"
+                           Foreground="#374151" FontWeight="SemiBold"/>
+                <TextBox Grid.Row="8" Grid.Column="1" x:Name="txtSiSoToiDa" Text="20"/>
+
+                <!-- Trạng thái -->
+                <TextBlock Grid.Row="9" Grid.Column="0" Text="Trạng thái:" VerticalAlignment="Center"
+                           Foreground="#374151" FontWeight="SemiBold"/>
+                <ComboBox Grid.Row="9" Grid.Column="1" x:Name="cbTrangThai" SelectedIndex="0">
+                    <ComboBoxItem Content="Chờ khai giảng"/>
+                    <ComboBoxItem Content="Đang học"/>
+                    <ComboBoxItem Content="Đã kết thúc"/>
+                </ComboBox>
+            </Grid>
+
+            <!-- Nút thao tác -->
+            <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,15,0,0">
+                <Button x:Name="btnTaoLop" Content="Tạo lớp" Width="120" Height="38"
+                        Style="{StaticResource ActionButton}" Click="btnTaoLop_Click"/>
+                <Button x:Name="btnLamMoi" Content="Làm mới" Width="120" Height="38"
+                        Style="{StaticResource ActionButton}" Click="btnLamMoi_Click"/>
+            </StackPanel>
+        </Grid>
+    </Border>
+</UserControl>

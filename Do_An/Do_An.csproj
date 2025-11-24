@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Hoc_vien\z7036210694201_63d938153e736b3845a0879b23f5abd4.jpg" />
+	  <None Remove="imagee\avatar.png" />
+	  <None Remove="z7036210694201_63d938153e736b3845a0879b23f5abd4.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="imagee\avatar.png">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+
+	<!-- Khai báo App.xaml là entry point -->
+	<ItemGroup>
+		<Page Include="App.xaml" />
+	</ItemGroup>
+
+	<!-- Tài nguyên -->
+
+	<!-- Package -->
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.0-preview1.25257.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<Resource Include="Hoc_vien\z7036210694201_63d938153e736b3845a0879b23f5abd4.jpg" />
+		<Resource Include="imagee\z7036210694201_63d938153e736b3845a0879b23f5abd4.jpg" />
+		<Resource Include="z7036210694201_63d938153e736b3845a0879b23f5abd4.jpg" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,152 @@
+﻿<Window x:Class="Do_An.GiaoDien_HocVien"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="StarEnglish - Dashboard"
+        Height="600" Width="1000"
+        WindowStartupLocation="CenterScreen"
+        Background="#F3F6F8">
+
+    <Window.Resources>
+        <!-- Kiểu nút bo góc -->
+        <Style TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="8"
+                                Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Kiểu cho item trong menu bên trái -->
+        <Style x:Key="SidebarListItem" TargetType="ListBoxItem">
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Margin" Value="4,4"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListBoxItem">
+                        <Border x:Name="Bd" CornerRadius="6"
+                                Padding="{TemplateBinding Padding}"
+                                Margin="{TemplateBinding Margin}"
+                                Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Bd" Property="Background" Value="#5CE1E8"/>
+                            </Trigger>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter TargetName="Bd" Property="Background" Value="#008BA0"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Kiểu cho nút Đăng xuất -->
+        <Style x:Key="LogoutButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#E63946"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Padding" Value="10,8"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Height" Value="38"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="55*"/>
+            <RowDefinition Height="237*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="220"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- ==================== THANH MENU BÊN TRÁI ==================== -->
+        <DockPanel Grid.Column="0" Background="#0098B0" Grid.RowSpan="2">
+            <!-- Logo -->
+            <StackPanel DockPanel.Dock="Top" Margin="10,20,10,30">
+                <Border CornerRadius="20" Background="Transparent" HorizontalAlignment="Center">
+                    <Image Source="/Hoc_vien/z7036210694201_63d938153e736b3845a0879b23f5abd4.jpg" Height="208" Stretch="Uniform" Width="195"/>
+                </Border>
+            </StackPanel>
+
+            <!-- Danh sách chức năng -->
+            <ListBox x:Name="MenuList" DockPanel.Dock="Top"
+                     Background="#0098B0"
+                     BorderThickness="0"
+                     Foreground="White"
+                     FontSize="16"
+                     ScrollViewer.VerticalScrollBarVisibility="Auto"
+                     ItemContainerStyle="{StaticResource SidebarListItem}">
+                <ListBoxItem Content="🧾 Hồ sơ học viên"/>
+                <ListBoxItem Content="📚 Học vụ"/>
+                <ListBoxItem Content="💰 Học phí"/>
+                <ListBoxItem Content="📝 Khảo sát"/>
+            </ListBox>
+
+            <!-- Đăng xuất -->
+            <StackPanel DockPanel.Dock="Bottom" Margin="10,20">
+                <Separator Background="White" Height="1" Margin="0,10"/>
+                <Button Content="🚪 Đăng xuất"
+                        Style="{StaticResource LogoutButtonStyle}"
+                        Click="btnThoat_Click"/>
+            </StackPanel>
+        </DockPanel>
+
+        <!-- ==================== KHU VỰC NỘI DUNG CHÍNH ==================== -->
+        <ScrollViewer Grid.Column="1"
+              Background="#FFF8FFFF"
+              VerticalScrollBarVisibility="Auto" Grid.RowSpan="2">
+            <Grid>
+                <Grid x:Name="DashboardPanel"
+              Margin="40,30,40,30"
+              VerticalAlignment="Top"
+              Visibility="Visible">
+                    <Border Background="White"
+                    CornerRadius="16"
+                    Padding="40"
+                    BorderBrush="#E2E8F0"
+                    BorderThickness="1">
+                        <Border.Effect>
+                            <DropShadowEffect Color="#000000"
+                                      BlurRadius="10"
+                                      ShadowDepth="3"
+                                      Opacity="0.15"/>
+                        </Border.Effect>
+                        <StackPanel HorizontalAlignment="Center"
+                            VerticalAlignment="Center">
+                            <TextBlock Text="Chào mừng bạn đến với StarEnglish!"
+                               FontSize="22"
+                               FontWeight="Bold"
+                               Foreground="#0F172A"/>
+                            <TextBlock Text="Hãy chọn chức năng ở thanh bên trái để bắt đầu."
+                               FontSize="14"
+                               Foreground="#475569"
+                               Margin="0,8,0,0"/>
+                        </StackPanel>
+                    </Border>
+                </Grid>
+
+                <!-- GIỐNG GiaoDien_NVQL -->
+                <ContentControl x:Name="MainContent"
+                        Margin="40,30,40,30"
+                        Visibility="Collapsed"
+                        HorizontalAlignment="Stretch"
+                        VerticalAlignment="Stretch"/>
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+</Window>

@@ -1,0 +1,152 @@
+﻿<Window x:Class="Do_An.GiangVien.Frm_GiangVienWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Do_An.GiangVien"
+        Title="Hệ thống giảng viên"
+        WindowStartupLocation="CenterScreen"
+        Width="1100" Height="700"
+        Background="#F3F6FA"
+        WindowStyle="None"
+        AllowsTransparency="True">
+
+    <!-- 🌈 Khai báo Resource -->
+    <Window.Resources>
+
+        <!-- Style cho các nút menu -->
+        <Style x:Key="MenuButton" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Margin" Value="15,8"/>
+            <Setter Property="Height" Value="45"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="10"
+                                Padding="10">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#3B4A72"/>
+                                <Setter Property="Foreground" Value="White"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#25314F"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Style cho nút đăng xuất -->
+        <Style x:Key="LogoutButton" TargetType="Button" BasedOn="{StaticResource MenuButton}">
+            <Setter Property="Background" Value="#E63946"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="10"
+                                Padding="10">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FF6B6B"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+    </Window.Resources>
+
+    <!-- 🧩 Bố cục chính -->
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- 🟦 Sidebar -->
+        <Border Background="#2E3A59"
+                CornerRadius="0,20,20,0"
+                Padding="10">
+            <Border.Effect>
+                <DropShadowEffect Color="#000" BlurRadius="6" ShadowDepth="2" Opacity="0.1"/>
+            </Border.Effect>
+
+            <StackPanel VerticalAlignment="Stretch">
+                <TextBlock Text="GIẢNG VIÊN"
+                           Foreground="White"
+                           FontSize="24"
+                           FontWeight="Bold"
+                           Margin="20,30,0,40"/>
+
+                <Button Content="🏠 Trang chủ"
+                        Style="{StaticResource MenuButton}"
+                        Click="BtnTrangChu_Click"/>
+                <Button Content="📅 Lịch dạy"
+                        Style="{StaticResource MenuButton}"
+                        Click="BtnLichDay_Click"/>
+                <Button Content="🎓 Quản lý điểm"
+                        Style="{StaticResource MenuButton}"
+                        Click="BtnNhapDiem_Click"/>
+
+                <StackPanel VerticalAlignment="Bottom" Margin="10,120,10,20">
+                    <Button Content="🚪 Đăng xuất"
+                            Style="{StaticResource LogoutButton}"
+                            Click="BtnDangXuat_Click"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+
+        <!-- 🟩 Nội dung chính -->
+        <Border Grid.Column="1"
+        Background="White"
+        CornerRadius="20"
+        Margin="15"
+        Padding="15">
+            <Border.Effect>
+                <DropShadowEffect Color="#000" BlurRadius="8" ShadowDepth="2" Opacity="0.05"/>
+            </Border.Effect>
+
+            <Grid>
+                <!-- Nút thoát -->
+                <Button Content="❌"
+                Width="35"
+                Height="35"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Margin="0,5,5,0"
+                Background="Transparent"
+                Foreground="Gray"
+                FontWeight="Bold"
+                BorderThickness="0"
+                FontSize="16"
+                Cursor="Hand"
+                Click="BtnThoat_Click"
+                ToolTip="Thoát chương trình"/>
+
+                <!-- Viewbox để nội dung chính scale -->
+                <Viewbox Stretch="Uniform"
+                 StretchDirection="Both"
+                 HorizontalAlignment="Center"
+                 VerticalAlignment="Top"
+                 Margin="0,50,0,0">
+                    <ContentControl x:Name="MainContent"/>
+                </Viewbox>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

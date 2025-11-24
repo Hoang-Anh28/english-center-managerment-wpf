@@ -1,0 +1,215 @@
+﻿<UserControl x:Class="Do_An.Admin_QLTK"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Do_An"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="900"
+             Background="#f5f7fa">
+
+    <UserControl.Resources>
+        <!-- BỔ SUNG QUAN TRỌNG: Converter để fix lỗi logic Trạng Thái -->
+        <!-- Đảm bảo bạn đã có class TrangThaiConverter trong file .cs (Tôi sẽ cung cấp ở bước 2) -->
+        <local:TrangThaiConverter x:Key="TrangThaiConverter"/>
+        <!-- Style Nút bấm (Đồng bộ với GiaoDien_Admin/NVQL) -->
+        <!-- Nút Xanh (Thêm/Sửa) -->
+        <Style x:Key="ActionButton" TargetType="Button">
+            <Setter Property="Background" Value="#0098B0"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Padding" Value="10,6"/>
+            <Setter Property="Margin" Value="5,0,5,0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Height" Value="38"/>
+            <Setter Property="MinWidth" Value="120"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="Bd" Background="{TemplateBinding Background}" CornerRadius="8">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Bd" Property="Background" Value="#008BA0"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Nút Xóa (Màu đỏ) -->
+        <Style x:Key="DeleteButton" TargetType="Button" BasedOn="{StaticResource ActionButton}">
+            <Setter Property="Background" Value="#E63946"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="Bd" Background="{TemplateBinding Background}" CornerRadius="8">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Bd" Property="Background" Value="#D02B3A"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Nút Khóa (Màu cam/vàng) -->
+        <Style x:Key="LockButton" TargetType="Button" BasedOn="{StaticResource ActionButton}">
+            <Setter Property="Background" Value="#F4A261"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="Bd" Background="{TemplateBinding Background}" CornerRadius="8">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Bd" Property="Background" Value="#E09356"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header với tìm kiếm (Giữ nguyên style của bạn) -->
+        <Border Grid.Row="0" CornerRadius="10" Margin="0,0,0,15">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="#1E88E5" Offset="0"/>
+                    <GradientStop Color="#1565C0" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+
+            <DockPanel LastChildFill="True" Margin="12">
+                <TextBlock Text="👤 Quản lý tài khoản"
+                           Foreground="White"
+                           FontSize="22"
+                           FontWeight="Bold"
+                           VerticalAlignment="Center"
+                           DockPanel.Dock="Left"/>
+
+                <!-- Ô tìm kiếm (GIỮ NGUYÊN TÊN) -->
+                <Border Background="White" CornerRadius="20" Padding="6" DockPanel.Dock="Right" Width="487">
+                    <DockPanel>
+                        <TextBox x:Name="txtSearch"
+                                 Width="220" Height="28"
+                                 BorderThickness="0"
+                                 FontSize="14"
+                                 VerticalAlignment="Center"
+                                 Background="Transparent"
+                                 ToolTip="Tìm kiếm tài khoản"
+                                 TextChanged="txtSearch_TextChanged"/>
+                        <TextBlock Text="🔍" VerticalAlignment="Center" Margin="6,0,0,0"/>
+                    </DockPanel>
+                </Border>
+            </DockPanel>
+        </Border>
+
+        <!-- DataGrid hiển thị -->
+        <Border Grid.Row="1" Background="White" CornerRadius="12" BorderBrush="#ddd" BorderThickness="1">
+            <DataGrid x:Name="dgTaiKhoan"
+                      AutoGenerateColumns="False"
+                      CanUserAddRows="False"
+                      IsReadOnly="True"
+                      RowHeight="40"
+                      AlternatingRowBackground="#f0f6ff"
+                      GridLinesVisibility="Horizontal"
+                      HeadersVisibility="Column"
+                      FontSize="14"
+                      Margin="10"
+                      BorderThickness="0"
+                      SelectionMode="Single"
+                      SelectionUnit="FullRow">
+
+                <DataGrid.Resources>
+                    <!-- (Giữ nguyên Style DataGrid của bạn) -->
+                    <Style TargetType="DataGridColumnHeader">
+                        <Setter Property="Background" Value="#e3f2fd"/>
+                        <Setter Property="FontWeight" Value="Bold"/>
+                        <Setter Property="FontSize" Value="14"/>
+                        <Setter Property="BorderBrush" Value="#ccc"/>
+                        <Setter Property="BorderThickness" Value="0,0,0,1"/>
+                        <Setter Property="Padding" Value="8"/>
+                    </Style>
+                    <Style TargetType="DataGridRow">
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Setter Property="Background" Value="White"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#d6e4ff"/>
+                            </Trigger>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter Property="Background" Value="#90caf9"/>
+                                <Setter Property="Foreground" Value="Black"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </DataGrid.Resources>
+
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Tên đăng nhập" Binding="{Binding TenDN}" Width="*"/>
+                    <DataGridTextColumn Header="Họ tên" Binding="{Binding HoTen}" Width="2*"/>
+                    <DataGridTextColumn Header="Loại" Binding="{Binding LoaiNguoiDung}" Width="*"/>
+
+                    <!-- ẨN CỘT MẬT KHẨU (Bảo mật) -->
+                    <!-- <DataGridTextColumn Header="Mật khẩu" Binding="{Binding MatKhau}" Width="*"/> -->
+
+                    <!-- FIX LỖI LOGIC: Sử dụng TemplateColumn và Converter cho Trạng Thái -->
+                    <DataGridTemplateColumn Header="Trạng Thái" Width="*">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <!-- Converter sẽ chuyển True/1 thành "Hoạt động" (Màu xanh) -->
+                                <!-- và False/0 thành "Đã khóa" (Màu đỏ) -->
+                                <TextBlock Text="{Binding TrangThai, Converter={StaticResource TrangThaiConverter}}" 
+                                           HorizontalAlignment="Center"
+                                           VerticalAlignment="Center"
+                                           FontWeight="SemiBold">
+                                    <TextBlock.Style>
+                                        <Style TargetType="TextBlock">
+                                            <Style.Triggers>
+                                                <!-- Kiểm tra giá trị đã Convert (là string) -->
+                                                <DataTrigger Binding="{Binding Text, RelativeSource={RelativeSource Self}}" Value="✅ Hoạt động">
+                                                    <Setter Property="Foreground" Value="Green"/>
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding Text, RelativeSource={RelativeSource Self}}" Value="🔒 Đã khóa">
+                                                    <Setter Property="Foreground" Value="Red"/>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </TextBlock.Style>
+                                </TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                </DataGrid.Columns>
+            </DataGrid>
+        </Border>
+
+        <!-- Nút chức năng (GIỮ NGUYÊN TÊN, SỬA STYLE) -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+            <!-- Sử dụng Style đồng bộ mới -->
+            <Button x:Name="btnThem" Content="➕ Thêm" Style="{StaticResource ActionButton}" Click="btnThem_Click"/>
+            <Button x:Name="btnSua" Content="✏ Sửa" Style="{StaticResource ActionButton}" Click="btnSua_Click"/>
+            <Button x:Name="btnXoa" Content="🗑 Xóa" Style="{StaticResource DeleteButton}" Click="btnXoa_Click"/>
+            <Button x:Name="btnKhoa" Content="🔒 Khóa/Mở" Style="{StaticResource LockButton}" Click="btnKhoa_Click"/>
+        </StackPanel>
+    </Grid>
+</UserControl>
+

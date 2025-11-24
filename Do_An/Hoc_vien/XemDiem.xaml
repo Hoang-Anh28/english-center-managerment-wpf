@@ -1,0 +1,98 @@
+﻿<UserControl x:Class="Do_An.XemDiem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             d:DesignHeight="650" d:DesignWidth="1000"
+             Background="White">
+
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="80"/>
+        </Grid.RowDefinitions>
+
+        <!-- PANEL THÔNG TIN -->
+        <Border BorderBrush="Gray" BorderThickness="1" Padding="10" CornerRadius="5">
+            <StackPanel>
+                <TextBlock Text="Thông tin học viên" FontSize="20" FontWeight="Bold" Margin="0 0 0 12"/>
+
+                <WrapPanel>
+                    <TextBlock Text="Họ tên:" Width="120" FontWeight="Bold"/>
+                    <TextBox x:Name="txtHoTen" Width="250" IsReadOnly="True"/>
+                    <TextBlock Text="Mã học viên:" Width="120" Margin="30 0 0 0" FontWeight="Bold"/>
+                    <TextBox x:Name="txtMaHV" Width="100" IsReadOnly="True"/>
+                </WrapPanel>
+
+                <WrapPanel Margin="0 8 0 0">
+                    <TextBlock Text="Lớp hiện học:" Width="120" FontWeight="Bold"/>
+                    <TextBox x:Name="txtLop" Width="250" IsReadOnly="True"/>
+                </WrapPanel>
+            </StackPanel>
+        </Border>
+
+        <!-- PANEL COMBO -->
+        <Grid Grid.Row="1" VerticalAlignment="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="160"/>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="160"/>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="Khóa học:" FontWeight="Bold" VerticalAlignment="Center"/>
+            <ComboBox Grid.Column="1" x:Name="cbKhoaHoc" Width="150" Height="28" SelectionChanged="cbKhoaHoc_SelectionChanged"/>
+
+            <TextBlock Grid.Column="3" Text="Môn học:" FontWeight="Bold" VerticalAlignment="Center"/>
+            <ComboBox Grid.Column="4" x:Name="cbMonHoc" Width="150" Height="28"/>
+
+            <Button Grid.Column="6"
+                    Content="Xem điểm"
+                    Width="100" Height="30"
+                    Background="#4472C4" Foreground="White"
+                    Click="btnXemDiem_Click"/>
+        </Grid>
+
+        <!-- DATA GRID -->
+        <DataGrid x:Name="dgvDiem"
+                  Grid.Row="2"
+                  Margin="0,10,0,10"
+                  AutoGenerateColumns="False"
+                  CanUserAddRows="False"
+                  AlternatingRowBackground="#F2F2F2">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="STT" Width="50" Binding="{Binding STT}"/>
+                <DataGridTextColumn Header="Môn học" Width="*" Binding="{Binding MonHoc}"/>
+                <DataGridTextColumn Header="Điểm GK" Width="100" Binding="{Binding DiemGK}"/>
+                <DataGridTextColumn Header="Điểm CK" Width="100" Binding="{Binding DiemCK}"/>
+                <DataGridTextColumn Header="Điểm TB" Width="100" Binding="{Binding DiemTB}"/>
+                <DataGridTextColumn Header="Xếp loại" Width="100" Binding="{Binding XepLoai}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- PANEL KẾT QUẢ -->
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBlock Text="Điểm trung bình:" FontWeight="Bold"/>
+                <TextBox x:Name="txtDiemTB" Width="100" Margin="8 0" Foreground="Red" IsReadOnly="True" TextAlignment="Center"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Column="1">
+                <TextBlock Text="Xếp loại:" FontWeight="Bold"/>
+                <TextBox x:Name="txtXepLoai" Width="100" Margin="8 0" Foreground="Red" IsReadOnly="True" TextAlignment="Center"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

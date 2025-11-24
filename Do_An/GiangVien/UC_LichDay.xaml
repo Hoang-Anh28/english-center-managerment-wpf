@@ -1,0 +1,74 @@
+﻿<UserControl x:Class="Do_An.GiangVien.UC_LichDay"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="#f5f5f5"
+             HorizontalAlignment="Stretch"
+             VerticalAlignment="Stretch">
+
+    <Grid Margin="10">
+        <Border Background="White"
+                CornerRadius="12"
+                Padding="20"
+                BorderBrush="#e8e8e8"
+                BorderThickness="1"
+                Margin="10">
+            <Border.Effect>
+                <DropShadowEffect Color="#000" BlurRadius="8" ShadowDepth="2" Opacity="0.08"/>
+            </Border.Effect>
+
+            <ScrollViewer VerticalScrollBarVisibility="Auto"
+                          HorizontalScrollBarVisibility="Auto"
+                          HorizontalAlignment="Stretch"
+                          VerticalAlignment="Stretch">
+
+                <Viewbox Stretch="Uniform" StretchDirection="Both" HorizontalAlignment="Center" VerticalAlignment="Top">
+                    <Grid Width="900" Height="500" Background="Transparent">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <!-- Tiêu đề -->
+                        <TextBlock Text="Lịch dạy của giảng viên"
+                                   FontSize="28"
+                                   FontWeight="Bold"
+                                   Foreground="DarkBlue"
+                                   Margin="0,0,0,20"
+                                   HorizontalAlignment="Left"
+                                   Grid.Row="0"/>
+
+                        <!-- DataGrid -->
+                        <DataGrid x:Name="dgLichDay"
+                                  Grid.Row="1"
+                                  AutoGenerateColumns="True"
+                                  HeadersVisibility="Column"
+                                  CanUserAddRows="False"
+                                  CanUserDeleteRows="False"
+                                  IsReadOnly="True"
+                                  RowHeight="35"
+                                  ColumnWidth="*"
+                                  AlternatingRowBackground="#F9F9F9"
+                                  GridLinesVisibility="None"
+                                  SelectionMode="Single"
+                                  Margin="0"
+                                  FontSize="14"
+                                  HorizontalAlignment="Stretch"
+                                  VerticalAlignment="Stretch">
+                            <DataGrid.Resources>
+                                <Style TargetType="DataGridColumnHeader">
+                                    <Setter Property="Background" Value="#FFDD99"/>
+                                    <Setter Property="FontWeight" Value="Bold"/>
+                                    <Setter Property="FontSize" Value="14"/>
+                                    <Setter Property="Padding" Value="5"/>
+                                </Style>
+                                <Style TargetType="DataGridRow">
+                                    <Setter Property="Height" Value="35"/>
+                                </Style>
+                            </DataGrid.Resources>
+                        </DataGrid>
+                    </Grid>
+                </Viewbox>
+            </ScrollViewer>
+        </Border>
+    </Grid>
+</UserControl>

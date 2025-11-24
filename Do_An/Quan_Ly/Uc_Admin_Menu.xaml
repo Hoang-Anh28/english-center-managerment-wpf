@@ -1,0 +1,80 @@
+﻿<UserControl x:Class="Do_An.Admin_Menu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             Background="#F5F7FA">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Chào mừng bạn đến với Bảng điều khiển Admin!"
+                   FontSize="22" FontWeight="SemiBold" 
+                   Foreground="#1E3A8A" 
+                   Margin="0,0,0,20"/>
+
+        <!-- Vùng chứa các thẻ thống kê -->
+        <UniformGrid Grid.Row="1" Columns="3" Rows="1">
+
+            <!-- Thẻ 1: Học Viên -->
+            <Border Background="White" CornerRadius="10" Margin="10" BorderBrush="#E2E8F0" BorderThickness="1">
+                <Border.Effect>
+                    <DropShadowEffect ShadowDepth="2" BlurRadius="10" Color="#000" Opacity="0.1"/>
+                </Border.Effect>
+                <StackPanel Orientation="Vertical" Margin="20">
+                    <TextBlock Text="🎓" FontSize="36" HorizontalAlignment="Center"/>
+                    <TextBlock Text="TỔNG SỐ HỌC VIÊN" 
+                               FontSize="16" FontWeight="Bold" Foreground="#6B7280" 
+                               HorizontalAlignment="Center" Margin="0,10,0,5"/>
+                    <!-- FIX: Thêm x:Name="lblHocVien" -->
+                    <TextBlock x:Name="lblHocVien" 
+                               Text="0" 
+                               FontSize="32" FontWeight="Bold" Foreground="#1E3A8A" 
+                               HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Border>
+
+            <!-- Thẻ 2: Giáo Viên -->
+            <Border Background="White" CornerRadius="10" Margin="10" BorderBrush="#E2E8F0" BorderThickness="1">
+                <Border.Effect>
+                    <DropShadowEffect ShadowDepth="2" BlurRadius="10" Color="#000" Opacity="0.1"/>
+                </Border.Effect>
+                <StackPanel Orientation="Vertical" Margin="20">
+                    <TextBlock Text="👩‍🏫" FontSize="36" HorizontalAlignment="Center"/>
+                    <TextBlock Text="TỔNG SỐ GIÁO VIÊN" 
+                               FontSize="16" FontWeight="Bold" Foreground="#6B7280" 
+                               HorizontalAlignment="Center" Margin="0,10,0,5"/>
+                    <!-- FIX: Thêm x:Name="lblGiaoVien" -->
+                    <TextBlock x:Name="lblGiaoVien" 
+                               Text="0" 
+                               FontSize="32" FontWeight="Bold" Foreground="#0098B0" 
+                               HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Border>
+
+            <!-- Thẻ 3: Nhân Viên/Tài Khoản (Sửa lại tên x:Name) -->
+            <Border Background="White" CornerRadius="10" Margin="10" BorderBrush="#E2E8F0" BorderThickness="1">
+                <Border.Effect>
+                    <DropShadowEffect ShadowDepth="2" BlurRadius="10" Color="#000" Opacity="0.1"/>
+                </Border.Effect>
+                <StackPanel Orientation="Vertical" Margin="20">
+                    <TextBlock Text="💼" FontSize="36" HorizontalAlignment="Center"/>
+                    <TextBlock Text="TÀI KHOẢN NHÂN VIÊN" 
+                               FontSize="16" FontWeight="Bold" Foreground="#6B7280" 
+                               HorizontalAlignment="Center" Margin="0,10,0,5"/>
+                    <!-- FIX: Thêm x:Name="lblTaiKhoan" (khớp với C#) -->
+                    <TextBlock x:Name="lblTaiKhoan" 
+                               Text="0" 
+                               FontSize="32" FontWeight="Bold" Foreground="#E63946" 
+                               HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Border>
+
+        </UniformGrid>
+    </Grid>
+</UserControl>

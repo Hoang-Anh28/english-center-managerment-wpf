@@ -1,0 +1,547 @@
+D:\visual Studio\Do_An\Do_An\bin\Debug\net8.0-windows\Do_An.exe
+D:\visual Studio\Do_An\Do_An\bin\Debug\net8.0-windows\Do_An.deps.json
+D:\visual Studio\Do_An\Do_An\bin\Debug\net8.0-windows\Do_An.runtimeconfig.json
+D:\visual Studio\Do_An\Do_An\bin\Debug\net8.0-windows\Do_An.dll
+D:\visual Studio\Do_An\Do_An\bin\Debug\net8.0-windows\Do_An.pdb
+D:\visual Studio\Do_An\Do_An\obj\Debug\net8.0-windows\MainWindow.baml
+D:\visual Studio\Do_An\Do_An\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\visual Studio\Do_An\Do_An\obj\Debug\net8.0-windows\App.g.cs
+D:\visual Studio\Do_An\Do_An\obj\Debug\net8.0-windows\Do_An_MarkupCompile.cache
+D:\visual Studio\Do_An\Do_An\obj\Debug\net8.0-windows\Do_An.g.resources
+D:\visual Studio\Do_An\Do_An\obj\Debug\net8.0-windows\Do_An.GeneratedMSBuildEditorConfig.editorconfig
+D:\visual Studio\Do_An\Do_An\obj\Debug\net8.0-windows\Do_An.AssemblyInfoInputs.cache
+D:\visual Studio\Do_An\Do_An\obj\Debug\net8.0-windows\Do_An.AssemblyInfo.cs
+D:\visual Studio\Do_An\Do_An\obj\Debug\net8.0-windows\Do_An.csproj.CoreCompileInputs.cache
+D:\visual Studio\Do_An\Do_An\obj\Debug\net8.0-windows\Do_An.dll
+D:\visual Studio\Do_An\Do_An\obj\Debug\net8.0-windows\refint\Do_An.dll
+D:\visual Studio\Do_An\Do_An\obj\Debug\net8.0-windows\Do_An.pdb
+D:\visual Studio\Do_An\Do_An\obj\Debug\net8.0-windows\Do_An.genruntimeconfig.cache
+D:\visual Studio\Do_An\Do_An\obj\Debug\net8.0-windows\ref\Do_An.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Do_An.exe
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Do_An.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.csproj.AssemblyReference.cache
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\App.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An_MarkupCompile.cache
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An_MarkupCompile.lref
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.g.resources
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.GeneratedMSBuildEditorConfig.editorconfig
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.AssemblyInfoInputs.cache
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.AssemblyInfo.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.csproj.CoreCompileInputs.cache
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.csproj.Up2Date
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\refint\Do_An.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.pdb
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Do_An.dll.config
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Do_An.deps.json
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Do_An.runtimeconfig.json
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Do_An.pdb
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.genruntimeconfig.cache
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\ref\Do_An.dll
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\XemDiem.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\XemDiem.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\DanhSachHocVienWindow.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\LichDayWindow.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\MainWindow.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\NhapDiemWindow.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\DanhSachHocVienWindow.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\LichDayWindow.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\MainWindow.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\NhapDiemWindow.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Frm_GiaoDienDangNhap.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Frm_GiaoDienDangNhap.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Frm_AdminQLTK_AddTK.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Frm_GiaoDien_Admin.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau2.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau3.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau4.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Frm_AdminQLTK_AddTK.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Frm_GiaoDien_Admin.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau1.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau2.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau3.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau4.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau1.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Frm_GiaoDien_HocVien.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_HocPhi.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_HoSoHocVien.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_KhaoSat.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_ThoiKhoaBieu.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Frm_GiaoDien_NVQL.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_BC.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_MLH.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_QLD.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_AdminQLLH_AddLH.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_Menu.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_QLLH.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_QLPQ.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Frm_GiaoDien_HocVien.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_HocPhi.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_HocVu.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_HoSoHocVien.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_KhaoSat.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_LichThi.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_ThoiKhoaBieu.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Frm_GiaoDien_NVQL.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_BC.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_DKHV.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_HP.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_MLH.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_PCGV.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_QLD.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_AdminQLLH_AddLH.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_Menu.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_QLLH.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_QLPQ.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_QLTK.g.cs
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_HocVu.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_LichThi.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_DKHV.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_HP.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_PCGV.baml
+D:\visual Studio\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_QLTK.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.csproj.AssemblyReference.cache
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Frm_GiaoDienDangNhap.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\UC_GiangVien.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\UC_TrangChu.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Frm_GiaoDien_HocVien.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_HocPhi.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_HoSoHocVien.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_KhaoSat.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_ThoiKhoaBieu.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\XemDiem.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Frm_GiaoDien_NVQL.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_BC.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_MLH.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_QLD.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Frm_AdminQLTK_AddTK.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Frm_GiaoDien_Admin.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_AdminQLLH_AddLH.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_Menu.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_QLLH.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_QLPQ.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau2.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau3.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau4.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Frm_GiaoDienDangNhap.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\Frm_GiangVienWindow.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\UC_GiangVien.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\UC_TrangChu.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Frm_GiaoDien_HocVien.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_HocPhi.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_HocVu.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_HoSoHocVien.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_KhaoSat.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_LichThi.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_ThoiKhoaBieu.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\XemDiem.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Frm_GiaoDien_NVQL.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_BC.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_DKHV.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_HP.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_MLH.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_PCGV.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_QLD.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Frm_AdminQLTK_AddTK.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Frm_GiaoDien_Admin.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_AdminQLLH_AddLH.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_Menu.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_QLLH.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_QLPQ.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_QLTK.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau1.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau2.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau3.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau4.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An_MarkupCompile.cache
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An_MarkupCompile.lref
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\refint\Do_An.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.pdb
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\UC_LichDay.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\UC_LichDay.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Do_An.exe
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Do_An.dll.config
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Do_An.deps.json
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Do_An.runtimeconfig.json
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Do_An.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Do_An.pdb
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\System.ClientModel.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\UC_NhapDiem.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\UC_NhapDiem.g.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\Frm_GiangVienWindow.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_HocVu.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_LichThi.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_DKHV.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_HP.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_PCGV.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_QLTK.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau1.baml
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.g.resources
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.AssemblyInfoInputs.cache
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.AssemblyInfo.cs
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.csproj.Up2Date
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.genruntimeconfig.cache
+C:\Users\lenovo\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\ref\Do_An.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Do_An.exe
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Do_An.dll.config
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Do_An.deps.json
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Do_An.runtimeconfig.json
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Do_An.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Do_An.pdb
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.csproj.AssemblyReference.cache
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Frm_GiaoDienDangNhap.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\UC_GiangVien.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\UC_LichDay.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\UC_NhapDiem.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\UC_TrangChu.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Frm_GiaoDien_HocVien.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_HocPhi.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_HoSoHocVien.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_KhaoSat.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_ThoiKhoaBieu.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\XemDiem.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Frm_GiaoDien_NVQL.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_BC.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_MLH.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_QLD.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Frm_AdminQLTK_AddTK.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Frm_GiaoDien_Admin.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_AdminQLLH_AddLH.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_Menu.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_QLLH.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_QLPQ.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau2.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau3.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau4.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Frm_GiaoDienDangNhap.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\Frm_GiangVienWindow.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\UC_GiangVien.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\UC_LichDay.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\UC_NhapDiem.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\UC_TrangChu.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Frm_GiaoDien_HocVien.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_HocPhi.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_HocVu.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_HoSoHocVien.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_KhaoSat.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_LichThi.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_ThoiKhoaBieu.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\XemDiem.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Frm_GiaoDien_NVQL.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_BC.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_DKHV.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_HP.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_MLH.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_PCGV.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_QLD.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Frm_AdminQLTK_AddTK.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Frm_GiaoDien_Admin.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_AdminQLLH_AddLH.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_Menu.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_QLLH.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_QLPQ.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_QLTK.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau1.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau2.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau3.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau4.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\App.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An_MarkupCompile.cache
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An_MarkupCompile.lref
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\GiangVien\Frm_GiangVienWindow.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_HocVu.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_LichThi.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_DKHV.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_HP.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_PCGV.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_QLTK.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau1.baml
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.g.resources
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.AssemblyInfoInputs.cache
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.AssemblyInfo.cs
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.csproj.CoreCompileInputs.cache
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.csproj.Up2Date
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\refint\Do_An.dll
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.pdb
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\Do_An.genruntimeconfig.cache
+D:\Downloads\GiaoDIenDangNhap_doAn\Do_An\obj\Debug\net8.0-windows\ref\Do_An.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Do_An.csproj.AssemblyReference.cache
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Frm_GiaoDienDangNhap.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\GiangVien\UC_GiangVien.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\GiangVien\UC_LichDay.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\GiangVien\UC_NhapDiem.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\GiangVien\UC_TrangChu.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Frm_GiaoDien_HocVien.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_HocPhi.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_HoSoHocVien.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_KhaoSat.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_ThoiKhoaBieu.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Hoc_vien\XemDiem.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Frm_GiaoDien_NVQL.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_BC.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_MLH.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_QLD.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Frm_AdminQLTK_AddTK.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Frm_GiaoDien_Admin.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_AdminQLLH_AddLH.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_Menu.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_QLLH.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_QLPQ.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau2.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau3.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau4.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Frm_GiaoDienDangNhap.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\GiangVien\Frm_GiangVienWindow.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\GiangVien\UC_GiangVien.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\GiangVien\UC_LichDay.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\GiangVien\UC_NhapDiem.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\GiangVien\UC_TrangChu.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Frm_GiaoDien_HocVien.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_HocPhi.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_HocVu.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_HoSoHocVien.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_KhaoSat.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_LichThi.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_ThoiKhoaBieu.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Hoc_vien\XemDiem.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Frm_GiaoDien_NVQL.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_BC.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_DKHV.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_HP.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_MLH.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_PCGV.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_QLD.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Frm_AdminQLTK_AddTK.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Frm_GiaoDien_Admin.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_AdminQLLH_AddLH.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_Menu.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_QLLH.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_QLPQ.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_QLTK.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau1.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau2.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau3.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau4.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\App.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Do_An_MarkupCompile.cache
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Do_An_MarkupCompile.lref
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Do_An.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\refint\Do_An.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Do_An.pdb
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Do_An.exe
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Do_An.dll.config
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Do_An.deps.json
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Do_An.runtimeconfig.json
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Do_An.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Do_An.pdb
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\GiangVien\Frm_GiangVienWindow.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_HocVu.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Hoc_vien\Uc_LichThi.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_DKHV.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_HP.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Nhan_vien\Uc_NVQL_PCGV.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Quan_Ly\Uc_Admin_QLTK.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Quenmatkhau\Frm_QuenMatKhau1.baml
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Do_An.g.resources
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Do_An.GeneratedMSBuildEditorConfig.editorconfig
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Do_An.AssemblyInfoInputs.cache
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Do_An.AssemblyInfo.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Do_An.csproj.CoreCompileInputs.cache
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Do_An.csproj.Up2Date
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Do_An.genruntimeconfig.cache
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\ref\Do_An.dll
+D:\visual Studio\DoAn_ChinhThuc\Do_An\bin\Debug\net8.0-windows\imagee\avatar.png
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\Do_An_Content.g.cs

@@ -1,0 +1,20 @@
+﻿Do_An
+1.0.0.0
+
+winexe
+C#
+.cs
+D:\visual Studio\DoAn_ChinhThuc\Do_An\obj\Debug\net8.0-windows\
+Do_An
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+D:\visual Studio\DoAn_ChinhThuc\Do_An\App.xaml
+32-601529321
+11865592986
+60565112639
+217372883587
+Frm_GiaoDienDangNhap.xaml;GiangVien\Frm_GiangVienWindow.xaml;GiangVien\UC_GiangVien.xaml;GiangVien\UC_LichDay.xaml;GiangVien\UC_NhapDiem.xaml;GiangVien\UC_TrangChu.xaml;Hoc_vien\Frm_GiaoDien_HocVien.xaml;Hoc_vien\Uc_HocPhi.xaml;Hoc_vien\Uc_HocVu.xaml;Hoc_vien\Uc_HoSoHocVien.xaml;Hoc_vien\Uc_KhaoSat.xaml;Hoc_vien\Uc_LichThi.xaml;Hoc_vien\Uc_ThoiKhoaBieu.xaml;Hoc_vien\XemDiem.xaml;Nhan_vien\Frm_GiaoDien_NVQL.xaml;Nhan_vien\Uc_NVQL_BC.xaml;Nhan_vien\Uc_NVQL_DKHV.xaml;Nhan_vien\Uc_NVQL_HP.xaml;Nhan_vien\Uc_NVQL_MLH.xaml;Nhan_vien\Uc_NVQL_PCGV.xaml;Nhan_vien\Uc_NVQL_QLD.xaml;Quan_Ly\Frm_AdminQLTK_AddTK.xaml;Quan_Ly\Frm_GiaoDien_Admin.xaml;Quan_Ly\Uc_AdminQLLH_AddLH.xaml;Quan_Ly\Uc_Admin_Menu.xaml;Quan_Ly\Uc_Admin_QLLH.xaml;Quan_Ly\Uc_Admin_QLPQ.xaml;Quan_Ly\Uc_Admin_QLTK.xaml;Quenmatkhau\Frm_QuenMatKhau1.xaml;Quenmatkhau\Frm_QuenMatKhau2.xaml;Quenmatkhau\Frm_QuenMatKhau3.xaml;Quenmatkhau\Frm_QuenMatKhau4.xaml;
+
+True
+
